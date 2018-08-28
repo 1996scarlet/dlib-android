@@ -195,7 +195,7 @@ if __name__ == '__main__':
     libs_dir = os.path.join(ROOT, 'libs')
     obj_dir = os.path.join(ROOT, 'obj')
 
-    setDeviceABI()
+    # setDeviceABI()
 
     args = parse_args()
 
