@@ -6,13 +6,13 @@
 
 * Grab the source:
 	
-	`$ git clone --recursive https://github.com/tzutalin/dlib-android.git`
+		`$ git clone --recursive https://github.com/tzutalin/dlib-android.git`
 	    
 * NDK Environment: Export ANDROID_NDK_HOME in ~/.bashrc
 
 		`$ sudo gedit ~/.bashrc`
-		`export ANDROID_NDK_HOME=/home/humanmotion/Android/Sdk/ndk-bundle`
-		`source ~/.bashrc`
+		`$ export ANDROID_NDK_HOME=/home/humanmotion/Android/Sdk/ndk-bundle`
+		`$ source ~/.bashrc`
      
 * Clone dlib-android-app：
 
@@ -27,7 +27,7 @@
 
 * Get others:
 	
-	`$ ./envsetup`
+		`$ ./envsetup`
 
 ### Edit `build.py`
 
