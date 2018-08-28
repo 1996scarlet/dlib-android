@@ -6,7 +6,7 @@
 
 * Grab the source:
 	
-		`$ git clone --recursive https://github.com/tzutalin/dlib-android.git`
+		`$ git clone --recursive https://github.com/1996scarlet/dlib-android.git`
 	    
 * NDK Environment: Export ANDROID_NDK_HOME in ~/.bashrc
 
