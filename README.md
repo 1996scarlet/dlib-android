@@ -29,21 +29,10 @@
 	
 	`$ ./envsetup`
 
-### Prerequisites
-* Download Android-NDK from [Android website](https://developer.android.com/ndk/downloads/index.html).
+### Edit `build.py`
 
-	 After downloading, go to the directory to which you downloaded the package to extract it
-
-	 Export ANDROID_NDK_HOME in ~/.bashrc
-     `$ vim ~/.bashrc`
-
-	`export ANDROID_NDK_HOME=[NDK_PATH]/android-ndk-[version]`
-
-    `export PATH=$PATH:$ANDROID_NDK_HOME`
-
-* Install Android Debug Bride (ADB). You can download it via [Android SDK Manager](https://developer.android.com/sdk/installing/index.html) or $ sudo apt-get install android-tools-adb
-
-* Prepare an Android device for test
+* Remove `setDeviceABI()` function
+* Change `NDK_PATH = '/home/humanmotion/Android/Sdk/ndk-bundle'`
 
 ### Build JNI code and shared library for Android application
 * You can change the compiler architecture in dlib-android/jni/Application.mk
