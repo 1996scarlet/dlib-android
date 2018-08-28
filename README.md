@@ -3,28 +3,31 @@
 [![Build Status](https://travis-ci.org/tzutalin/dlib-android.png)](https://travis-ci.org/tzutalin/dlib-android)
 
 ### Purpose
+
+* Grab the source:
+
+	`$ git clone --recursive https://github.com/tzutalin/dlib-android.git`
+	    
 * NDK Environment: Export ANDROID_NDK_HOME in ~/.bashrc
 
-	     `$ sudo gedit ~/.bashrc`
-	     `export ANDROID_NDK_HOME=/home/humanmotion/Android/Sdk/ndk-bundle`
-	     `source ~/.bashrc`
+	`$ sudo gedit ~/.bashrc`
+	`export ANDROID_NDK_HOME=/home/humanmotion/Android/Sdk/ndk-bundle`
+	`source ~/.bashrc`
      
 * Clone dlib-android-app：
 
-	     `$ cd dlib-android/androidstudio-examples`
-	     `$ git clone https://github.com/tzutalin/dlib-android-app.git`
+	`$ cd dlib-android/androidstudio-examples`
+	`$ git clone https://github.com/tzutalin/dlib-android-app.git`
      
 * OpenCV-Android-SDK: 
 
-	     `$ cd dlib-android/third_party`
-	     `$ unzip opencv-3.4.1-android-sdk.zip`
-	     `$ cp cp -ri OpenCV-android-sdk/sdk/native/* opencv/`
+	`$ cd dlib-android/third_party`
+	`$ unzip opencv-3.4.1-android-sdk.zip`
+	`$ cp cp -ri OpenCV-android-sdk/sdk/native/* opencv/`
 
-### Grab the source
-
-	    $ git clone --recursive https://github.com/tzutalin/dlib-android.git
-	    $ cd dlib-android
-	    $ ./envsetup
+* Get others:
+	
+	`$ ./envsetup`
 
 ### Prerequisites
 * Download Android-NDK from [Android website](https://developer.android.com/ndk/downloads/index.html).
